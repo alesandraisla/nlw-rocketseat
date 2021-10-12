@@ -40,3 +40,13 @@ window.addEventListener('scroll', () => {
   }
 })
 
+/**Testimonials carousel slider swiper */
+const swiper = new Swiper('.swiper', {
+  //Quantos sliders vai aparecer
+  slidesPerView: 1,
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  mousewheel: true,
+  keyboard: true
+});
