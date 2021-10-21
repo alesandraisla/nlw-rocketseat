@@ -50,7 +50,11 @@ const swiper = new Swiper('.swiper', {
     el: '.swiper-pagination',
   },
   mousewheel: true,
-  keyboard: true
+  keyboard: true,
+  breakpoints: {
+    slidesPerView: 2,
+    setWrapperSize: true
+  }
 });
 
 /**ScrollReveal : Mostrar elementos quando der scroll na página  */
